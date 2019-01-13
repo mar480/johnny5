@@ -33,7 +33,7 @@ def j5():
 r = sr.Recognizer()
 mic = sr.Microphone()
 
-path = 'C:\\Users\\Future Rob\\Desktop\\j5\\audio\\'
+path = 'path\to\audio\files'
 pathFiles = os.listdir(path)
 
 hi = path + 'hi.mp3'
